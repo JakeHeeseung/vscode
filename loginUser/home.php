@@ -3,9 +3,7 @@ include('dbcon.php');
 include('session.php'); 
 $result=mysqli_query($con, "select * from users where user_id='$session_id'")or die('Error In Session');
 $row=mysqli_fetch_array($result);
-
- ?>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+?>
 
 <html>
 <head>
@@ -21,7 +19,6 @@ $row=mysqli_fetch_array($result);
     <h3>Email: </h3><h4><?php echo $row['email']; ?></h4>
     <h3>Password: </h3><h4><input type="password" value="1234" id="myInput"><br><br>
 <input type="checkbox" onclick="myFunction()">Show Password
-
 <script>
 function myFunction() {
   var x = document.getElementById("myInput");
@@ -31,12 +28,10 @@ function myFunction() {
     x.type = "password";
   }
 }
-
 </script></h3>
 	 <div class="logout">
     <p><a class="btn btn-danger" href="logout.php">Log out</a></p>
   </div>
 </div>
-
 </body>
 </html>
