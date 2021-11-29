@@ -1,0 +1,119 @@
+body {
+  color: #fff;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+	background:url(img/bg2.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+.account{
+  color: white;
+   text-align: center;
+}
+
+.form-wrapper {
+width:500px;
+height:480px;
+  position: absolute;
+  top: 35%;
+  left: 43%;
+  margin: -184px 0px 0px -155px;
+  background:url(img/abc.jpg)no-repeat center center fixed; 
+  background-image: linear-gradient(to right, #790975,#ff0030);
+  padding: 15px 25px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+}
+
+.form-item {
+width:100%;
+}
+
+
+h3{
+  font-size: 22px;
+  font-weight: 640;
+  color: white;
+  font-family:'sans-serif','helvetica';
+}
+
+h4{
+  font-size: 21px;
+  font-weight: 640;
+  text-align: center;
+  color: #ffeaa7;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-item input{
+  border: none;
+  background:transparent;
+  color: #fff;
+  margin-top:11px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  height: 49px;
+  padding: 0 16px;
+  width: 100%;
+  padding-left: 55px;
+
+}
+input[type='password']{
+	background: transparent url("img/pass.jpg") no-repeat;
+	background-position: 10px 50%; font
+}
+input[type='text']{
+	background: transparent url("img/user.jpg") no-repeat;
+	background-position: 10px 50%;
+
+}
+
+.form-item input:focus {
+  outline: none;
+  border:1.4px solid #cfecf0;
+}
+
+.button-panel {
+  margin-bottom: 20px;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.button-panel .button {
+  background: #ee2a2a;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  font-family: 'helvetica','Open Sans', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 0.6s linear;
+  width: 100%;
+  margin-top:10px;
+}
+
+.button:hover {
+  background: #f0c743;
+}
+
+.form-item input, .button-panel .button {
+  border-radius: 2px
+}
+
+.logout {
+  text-align: center;
+  margin-top: 11% !important;
+}
+
+.logout a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.logout a:hover {
+  color: #cab6bf;
+}
